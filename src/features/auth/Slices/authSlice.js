@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { signInWithEmailAndPassword, signOut } from "firebase/auth";
-import { auth } from "../services/firebase";
+// import { auth } from "../services/firebase";
+import { auth } from "../../../firebase";
 
 export const login = createAsyncThunk(
   "auth/login",
