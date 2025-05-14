@@ -1,21 +1,20 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from 'firebase/auth';
-
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDxO3xNWg7knEId1u9ilVAboLH-lubERSM",
-  authDomain: "dashboard-news-90fb1.firebaseapp.com",
-  projectId: "dashboard-news-90fb1",
-  storageBucket: "dashboard-news-90fb1.firebasestorage.app",
-  messagingSenderId: "290045228265",
-  appId: "1:290045228265:web:56b8890c4c2b227f4b2c78",
-  measurementId: "G-WTRCLBVXYT",
+  apiKey: "AIzaSyDBicw7_fg8ANsQcWx1CbSVRkzuJcDDbwk",
+  authDomain: "dashboard-news-6dac6.firebaseapp.com",
+  projectId: "dashboard-news-6dac6",
+  storageBucket: "dashboard-news-6dac6.firebasestorage.app",
+  messagingSenderId: "626659035048",
+  appId: "1:626659035048:web:d743d9c8395b46aed0bf9d",
+  measurementId: "G-PNFRNMJ1TG",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
- const auth = getAuth(app);
+const auth = getAuth(app);
 
 const provider = new GoogleAuthProvider();
 
