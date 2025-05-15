@@ -3,11 +3,10 @@ import {
   createUserWithEmailAndPassword,
   signInWithRedirect,
 } from "firebase/auth";
-// import { auth, provider } from "../../../../src/firebase";
 
-import { auth, provider } from "../../../../src/firebase";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { auth, provider } from "../../../config/firebaseConfig";
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
