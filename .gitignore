@@ -1,6 +1,8 @@
 # ignore .env file
 .env*
 
+# don't ignore .env.example file (which will help other developer)
+!.env.sample
 
 # Logs
 logs
