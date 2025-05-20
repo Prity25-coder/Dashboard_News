@@ -5,6 +5,7 @@ import Login from "./components/Pages/Auth/Login";
 import News from "./components/Pages/News";
 import Analytics from "./components/Pages/Analytics";
 import Payout from "./components/Pages/Payout";
+import Signup from "./components/Pages/Auth/Signup";
 
 const appRoutes = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const appRoutes = createBrowserRouter([
       {
         path: "/",
         element: <Dashboard />,
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
       },
       {
         path: "/login",
